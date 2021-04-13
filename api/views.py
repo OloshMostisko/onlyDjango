@@ -9,10 +9,10 @@ from django.urls import reverse
 
 def index(request):
    
-   # posts = ChairmanMsg.objects.all()
+    posts = "Shezan Mahmud"
     
     context = {
-     #  'posts': posts
+       'posts': posts
     }
   
-    return render(request, 'index.html',context)
+    return render(request, 'index.html', context)

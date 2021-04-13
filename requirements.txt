@@ -1,0 +1,17 @@
+asgiref==3.3.1
+dj-database-url==0.5.0
+Django==3.1.7
+djangorestframework==3.12.2
+django-ckeditor==6.0.0
+django-cors-headers==3.6.0
+django-js-asset==1.2.2
+django-user-visit==0.4.1
+Pillow==8.1.0
+python-decouple==3.4
+python-git==2018.2.1
+pytz==2020.5
+Send2Trash==1.5.0
+sqlparse==0.4.1
+ua-parser==0.10.0
+user-agents==2.2.0
+whitenoise==5.2.0

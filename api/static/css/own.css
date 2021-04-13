@@ -1,0 +1,286 @@
+
+
+.loader-42 .loader-container::before,   
+.loader-42 .loader-container::after {
+  box-sizing: border-box;
+  /* font-family: sans-serif; */
+  margin: 0;
+}
+
+.loader {
+  position: relative;
+  display: block;
+  height: 100%; 
+  width: 100%;
+  min-height: 250px;
+  float: left;
+  z-index: 100;
+  /* border: 2px solid #fff; */
+  background-color: rgb(240,240,241);
+  overflow: hidden;
+}
+
+/* @media screen and (min-width: 425px) {
+  .loader { width: 50%; }
+}
+@media screen and (min-width: 768px) {
+  .loader { width: 33.33%; }
+}
+@media screen and (min-width: 1440px) {
+  .loader { width: 25%; }
+} */
+
+/* loader-42 */
+.loader-42 {
+  background-color: #349595;
+}
+.loader-42 .loader-holder {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 202px; height: 202px;
+  overflow: hidden;
+}
+  .loader-42 .loader-container {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px; height: 200px;
+    border: 2px solid rgba(235,235,236,0.15);
+  }
+  .loader-42 .loader-container::before,
+  .loader-42 .loader-container::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 40px; height: 0px;
+  }
+  .loader-42 .loader-container::before {
+    top: 0; right: 0;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: translate(-198px, -2px);
+    animation: spinBefore42 2s infinite linear;
+  }
+  .loader-42 .loader-container::after {
+    bottom: 0; left: 0;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    transform: translate(200px, 2px);
+    animation: spinAfter42 2s 0.9s infinite linear;
+  }
+  .loader-42 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: #fff;
+    font-family: 'Dosis';
+    font-weight: 600;
+    text-align: center;
+    line-height: 45px;
+  }
+
+@keyframes spinBefore42 {
+  0%   { transform: translate(-198px, -3px);  width: 70px; height: 0px;  }
+  20%  { transform: translate(3px, -3px);  width: 70px; height: 0px; }
+  25%  { transform: translate(3px, -3px);  width: 0px; height: 60px; }    
+  50%  { transform: translate(3px, 199px); width: 0px; height: 40px; }
+  100% { transform: translate(3px, 199px); width: 0px; height: 40px; }
+}
+@keyframes spinAfter42 {
+  0%   { transform: translate(198px, 3px); width: 40px; height: 0px;  }                                
+  20%  { transform: translate(-3px, 3px); width: 40px; height: 0px; }
+  25%  { transform: translate(-3px, 3px);  width: 0px; height: 40px; }    
+  60%  { transform: translate(-3px, -199px); width: 0px; height: 60px; }
+  100% { transform: translate(-3px, -199px); width: 0px; height: 60px; }
+}
+
+/* title flicking */
+/* @keyframes loader {
+  0%  { opacity: 1; }
+  75% { opacity: 1; }
+  80% { opacity: 0.6; }
+  85% { opacity: 1; }
+  90% { opacity: 0.5; }
+  95% { opacity: 1; }
+  100% { opacity: 1; }
+} */
+    
+
+
+
+.loader-42 {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 222222;
+}
+/*----------------------------------------*/
+/*  preloader css Section end.
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  1.  Page head Section.
+/*----------------------------------------*/
+
+
+.page_head_bg {
+    background-image: url(../images/bg/ph1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.page_head {
+    z-index: 222;
+}
+.ph_title {
+    margin-bottom: 15px;
+}
+.ph_title h2 {
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 42px;
+    text-align: center;
+}
+.ph_menu {
+    display: flex;
+    justify-content: center;
+}
+.ph_menu h5{
+    font-size: 15px;
+    color: #bbb;
+    font-weight: 700;
+    padding: 0px 5px;
+}
+.ph_menu h5 a {
+    color: #1fdfdf;
+}
+.ph_menu h5 a:hover{
+    color: #fff;
+    transition: 0.3s;
+}
+.page_head_bg::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #010101;
+    opacity: 0.8;
+}
+
+/*************************************
+         Start Contact page css   
+ **************************************/
+.form_area{
+    padding-right: 45px;
+}
+.form_title {
+    padding-bottom: 30px;
+}
+.form_title h1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    position: relative;
+    font-size: 42px;
+    color: #135252;
+}
+.form_title h1::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    left: 0;
+    bottom: 30px;
+    width: 12%;
+    background: #135252;
+}
+.form_wrap label {
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #444;
+}
+.form_wrap input, textarea {
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    color: #444;
+}
+.form_wrap input:focus, textarea:focus {
+    border: 1px solid #135252;
+}
+.form_button button {
+    color: #fff;
+    font-family: 'DOSIS';
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px 25px;
+    background: #890013ed;
+    border: none;
+    border-radius: 5px;
+    line-height: 35px;
+}
+.form_button button:hover {
+    background: #135252;
+    transition: 0.3s;
+}
+
+
+.info_wrap h4 {
+    font-family: 'Dosis';
+    font-weight: 700;
+    font-size: 20px;
+    color: #135252;
+    position: relative;
+    padding-bottom: 12px;
+}
+.info_wrap h4::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background: #135252;
+    opacity: 0.6;
+}
+.info_details{
+    padding: 10px 0px 35px 0px;
+}
+.c_schedule{
+    padding-bottom: 0px !important;
+}
+.social a i {
+    margin-right: 10px;
+    padding: 9px;
+    background: #dedede;
+    height: 35px;
+    width: 37px;
+    font-size: 20px;
+    color: #FFF;
+}
+.social a i:hover {
+    background: #407e7e;
+    transition: all 0.3s ease 0s;
+}
+.info_cart {
+    display: flex;
+    justify-content: flex-start;
+}
+.info_cart i{
+    padding: 5px 10px 5px 0px;
+    color: #135252;
+}
+
+ /*************************************
+         Contact page css End   
+ **************************************/

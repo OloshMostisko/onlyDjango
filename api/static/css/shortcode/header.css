@@ -1,0 +1,381 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Department of CSE, BUBT 
+    Template URI: http://
+    Description: This is html5 template
+    Author: Team Crackers
+    Author URI: http://
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Promo Style
+/*----------------------------------------*/
+
+.header_logo a img {
+  height: 84px;
+}
+
+.header_top.bg_theme {
+  display: flex;
+  height: 112px;
+  align-items: center;
+}
+.header_top_right_bottom a:hover {
+  color: #880519;
+}
+.login_register a:hover {
+  color: #135252;
+}
+.bg_theme {
+	background: #fff none repeat scroll 0 0;
+}
+.header_top_right_bottom {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 12px;
+}
+.header_top_right_bottom ul li {
+	display: inline-block;
+}
+
+.header_top_right_bottom ul li+li {
+	margin-left:28px;
+}
+
+.header_address li a {
+  color: #333;
+  font-family: "Raleway",sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.header_address a i {
+	padding-right: 10px;
+}
+.login_register li input {
+  height: 25px;
+  border: 1px solid #8a8989;
+  width: 185px;
+  background: #E4E6E7;
+}
+.login_register li input:focus {
+  border: 1px solid #135252;
+  transition: 0.3s;
+  color: #135252;
+}
+
+.uni_logo a img {
+  width: 250px;
+}
+
+
+.header_top_right {
+	display: flex;
+	justify-content: flex-end;
+}/*
+.social_icon{
+	display: flex;
+}
+.social_icon li{
+	display: inline-block;
+}
+.social_icon li a {
+  border-radius: 50%;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 30px;
+}
+
+.social_icon li+li {
+	padding-left:13px;
+}
+.social_icon li:nth-child(1) a {
+	background: #fff none repeat scroll 0 0;
+	border: 0.5px solid #000;
+	color: #3B5999;
+	transition: all 0.5s;
+}
+.social_icon li:nth-child(1) a:hover {
+  background: #3b5999 none repeat scroll 0 0;
+  border: 0.5px solid #fff;
+  color: #fff;
+  transition: all 0.5s;
+}
+.social_icon li:nth-child(2) a {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #000;
+	color: #E4405F;
+	transition: all 0.5s;
+}
+.social_icon li:nth-child(2) a:hover {
+  background: #E4405F none repeat scroll 0 0;
+  border: 0.5px solid #fff;
+  color: #fff;
+  transition: all 0.5s;
+}
+.social_icon li:nth-child(3) a {
+	background: #fff none repeat scroll 0 0;
+	border: 0.5px solid #000;
+	color: #55ACEE;
+	transition: all 0.5s;
+}
+.social_icon li:nth-child(3) a:hover {
+  background: #55ACEE none repeat scroll 0 0;
+  border: 0.5px solid #fff;
+  color: #fff;
+  transition: all 0.5s;
+}
+.social_icon li:nth-child(4) a {
+	background: #fff none repeat scroll 0 0;
+	border: 0.5px solid #000;
+	color: #DD4B39;
+	transition: all 0.5s;
+}
+.social_icon li:nth-child(4) a:hover {
+  background: #DD4B39 none repeat scroll 0 0;
+  border: 0.5px solid #fff;
+  color: #fff;
+  transition: all 0.5s;
+}
+.social_icon li:nth-child(5) a {
+	background: #fff none repeat scroll 0 0;
+	border: 0.5px solid #000;
+	color: #BD081C;
+	transition: all 0.5s;
+}
+.social_icon li:nth-child(5) a:hover {
+  background: #BD081C none repeat scroll 0 0;
+  border: 0.5px solid #fff;
+  color: #fff;
+  transition: all 0.5s;
+}*/
+.login_register {
+  display: flex;
+  padding-left: 24px;
+  margin-left: 22px;
+  padding-top: 4px;
+  position: relative;
+}
+.login_register li{
+	display: inline-block;
+}
+.login_register li+li{
+	padding-left:20px;
+}
+.login_register li a{
+	font-size:15px;
+	font-weight:500;
+	color: #333;
+	font-family: "Raleway",sans-serif;
+}
+
+/*
+.login_register::before {
+  background: #99bbd3 none repeat scroll 0 0;
+  content: "";
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 23%;
+  width: 1px;
+}
+*/
+
+.mainmenu_area.sticky-header {
+  background: #135252;
+}
+.mainmenu_nav {
+  display: flex;
+  align-items: center;
+}
+.main_menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main_menu li+li {
+	margin-left: 5px;
+}
+.main_menu li a {
+  color: #fff;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 52px;
+  padding: 0 10px;
+  position: relative;
+  text-transform: uppercase;
+}
+.main_menu li:hover a {
+  background-color: #349595;
+}
+.main_menu li:hover ul li a{
+  background-color: #fff;
+}
+.main_menu li.drop {
+  position: relative;
+  transition: all 0.4s ease 0s;
+}
+.main_menu .drop::before {
+	color: #fff;
+	content: "";
+	font-family: fontawesome;
+	font-size: 12px;
+	position: absolute;
+	right: -1%;
+	top: 35%;
+  z-index: 999;
+}
+
+.main_menu> li:hover a::before {
+  width: 100%;
+}
+.main_menu> li> a::before {
+  background-color: #0b4444;
+  bottom: 0;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  transition: all 0.4s ease 0s;
+  width: 0;
+}
+.main_menu> li:hover a::after {
+  width: 100%;
+}
+.main_menu> li> a::after {
+  background-color: #0b4444;
+  content: "";
+  height: 3px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.4s ease 0s;
+  width: 0;
+}
+
+/* dropdown css start */
+.main_menu ul.dropdown {
+  background: #349595 !important;
+  position: absolute;
+  transform-origin: center top 0;
+  z-index: 999;
+  visibility: hidden;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  top: 100%;
+  transition: 0.5s;
+  width: 248px;
+  box-shadow: 0 2px 6px #031e1e;
+  padding: 1px 0px 2px 0px;
+}
+.width {
+  width: 210px !important;
+}
+li.drop:hover ul.dropdown {
+  opacity: 1;
+  visibility: visible;
+}
+.main_menu ul.dropdown li {
+  margin: 0;
+  display: block;
+  border-bottom: 1px solid #349595;
+}
+.main_menu ul.dropdown li a {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 38px;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+.main_menu ul.dropdown li a:hover {
+  background: #349595;
+  color: #FFFFFF;
+}
+
+/* dropdown css end */
+
+.cart_search {
+	margin-left: 12px;
+}
+.cart_search_list li i {
+  color: #fff;
+  font-size: 17px;
+  transition: all 0.03s ease 0s;
+}
+.cart_search_list li i:hover{
+	color: #0F723A;
+}
+.button-search {
+  cursor: pointer;
+}
+.nav-search {
+  width: 320px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: 0;
+  bottom: -80px;
+  z-index: 999;
+}
+.nav-search form {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #cccccc;
+}
+.searchbox {
+  border: none !important;
+  display: flex;
+  width: 240px;
+  height: 40px;
+  padding: 0 20px;
+  box-shadow: none;
+}
+.searchbutton {
+  width: 40px;
+  padding: 0px;
+  display: flex;
+  border: none;
+  box-shadow: none;
+  background-color: #ECEFF8;
+  height: 100%;
+  justify-content: center;
+}
+.searchbutton i {
+  color: #555555;
+  font-size: 16px;
+  transition: all 0.4s ease;
+}
+.searchbutton:hover i {
+  color: #0F723A;
+}
+
+
+.sticky-header{
+  z-index: 9999999 !important;
+  background: #fff;
+  transition: 0.5s;
+}
+.sticky-header.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99999;
+  box-shadow: 0px 3px 10px 0px #031e1e;
+}

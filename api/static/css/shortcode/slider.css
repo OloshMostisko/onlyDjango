@@ -1,0 +1,128 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Department of CSE, BUBT 
+    Template URL: http://
+    Description: This is html5 template
+    Author: Team Crackers
+    Author URL: http://
+    Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+
+
+.slider-area {
+	height: 495px;
+}
+.slider-area .slider_activator .owl-stage-outer .owl-stage {
+  position: relative;
+}
+.s_overlay {
+	color: rgba(10, 15, 28, 0.8);
+	height: 100%;
+	width: 100%;
+}
+/*.s_overlay{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(10, 15, 28, 0.8);
+	z-index: 999;
+}*/
+.slide {
+  align-items: center;
+  display: flex;
+  height: 495px;
+}
+.slider_bg_color {
+	background-image: url(../../images/slider/c.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.slider_bg_color1{
+	background-image: url(../../images/slider/b.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.slider_bg_color2{
+	background-image: url(../../images/slider/d.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.slider_display { 
+	text-align: center;
+}
+.slider-area h1 {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 40px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.slider-area p {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 38px;
+	font-weight: 800;
+	line-height: 40px;
+	margin-top: 15px;
+}
+.slider_inner h3 {
+	margin: 0px;
+	font-size: 28px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-top: 25px;
+}
+.owl-nav {
+	display: flex;
+	justify-content: space-between;
+}
+.owl-nav>.owl-prev>span{
+	background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 30px;
+	height: 55px;
+	line-height: 50px;
+	margin-left: 20px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 55px;
+	transition: all 0.3s ease;
+}
+.owl-nav > .owl-next > span {
+	background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 30px;
+	height: 55px;
+	line-height: 50px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 55px;
+	transition: all 0.3s ease;
+	right: 20px;
+}
+
+.owl-nav button span:hover {
+  background: #222222 none repeat scroll 0 0;
+}
+
+
+
+
+.cd-words-wrapper {
+	text-transform: capitalize;
+	color: #349595;
+}

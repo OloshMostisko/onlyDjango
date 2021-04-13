@@ -1,0 +1,166 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Department of CSE, BUBT 
+    Template URI: http://
+    Description: This is html5 template
+    Author: Team Crackers
+    Author URI: http://
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS
+-----------------------------------------------------------------------------------*/
+
+
+
+footer {
+  background: #135252  none repeat scroll 0 0;
+}
+.footer_logo a img {
+	width: 95px;
+}
+.footer_top {
+  align-items: center;
+  display: flex;
+  height: 269px;
+  justify-content: center;
+  border-bottom: 1px solid #81B0CC;
+}
+.footer_logo {
+	margin-bottom: 10px;
+	margin-top: 0;
+	text-align: center;
+}
+.footer_address {
+  display: flex;
+}
+.footer_address p {
+	color: #fff;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.footer_address li i {
+	margin-right: 8px;
+}
+.footer_address li+li {
+	margin-left: 40px;
+}
+.footer_address li a {
+  color: #fff;
+  font-size: 14px;
+}
+.footer_address li a:hover {
+  color: #011717;
+  transition: all 0.3s ease 0s;
+}
+.footer_title {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.list li a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+.list li a:hover {
+	color: #222222;
+	transition: all 0.3s ease 0s;
+}
+.list {
+  margin-top: 30px;
+}
+.footer_widget > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 30px;
+}
+.f_PL{
+  padding-left: 40px;
+}
+.f_center {
+  text-align: center;
+}
+.f_right {
+  text-align: end;
+}
+.f_PR{
+  padding-right: 40px;
+}
+.footer_content {
+  border-bottom: 1px solid #81B0CC;
+}
+.copyright_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;/*
+  padding: 0px 15px;*/
+}
+.copyright > p {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+.copyright a {
+  color: #fff;
+}
+.copyright a:hover {
+  color: #011717;
+  transition: all 0.3s ease 0s;
+}
+.footer_menu {
+  display: flex;
+}
+.footer_menu li + li {
+  margin-left: 12px;
+}
+.footer_menu a {
+  color: #fff;
+}
+.footer_menu li:hover {
+  color: #fff;
+  background: #d69aa4;
+  transition: all 0.3s ease 0s;
+}
+
+
+.footerTitle h3 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+}
+.footerTitle h5 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer_menu li a i {
+  font-size: 22px;
+  padding: 10px;
+}
+.footer_menu li {
+  background: #407e7e;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}

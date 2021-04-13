@@ -1,0 +1,66 @@
+{% load static %}
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Shezan</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="{% static 'apple-touch-icon.png' %}">
+    <link rel="shortcut icon" href="{% static 'images/icons/logo.png' %}">
+    <!-- All css files are included here...-->
+	
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <!-- import font here -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet">
+    <!-- This core.css file contents all plugings css file. -->
+    <link rel="stylesheet" href="{% static 'css/core.css' %}">
+    <!-- Theme shortcodes/elements style -->
+    <link rel="stylesheet" href="{% static 'css/shortcode/shortcodes.css' %}">
+    <!-- Theme main style -->
+    <link rel="stylesheet" href="{% static 'css/own.css' %}">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+    <!-- User style -->
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+
+</head>
+
+<body>
+
+
+  
+          <!-- Start page content -->
+        {% block content %}
+
+        {% endblock %}
+        <!-- End page content -->
+	
+    <!-- jquery latest version -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- animatedheadline js -->
+    <script type="text/javascript" src="{% static 'js/animatedheadline.js' %}"></script>
+    <!-- sticky menu js -->
+    <script type="text/javascript" src="{% static 'js/jquery.sticky.js' %}"></script>
+    <!-- sticky menu js -->
+    <script type="text/javascript" src="{% static 'js/owl.carousel.min.js' %}"></script>
+    
+    <!-- sticky menu js -->
+    <script type="text/javascript" src="{% static 'js/plugins.js' %}"></script>
+    <!-- sticky menu js -->
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
